@@ -1,0 +1,178 @@
+.sec5{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sec5 .sec5_div{
+    width: 100%;
+    height: 200px;
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec5_div *{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+}
+.sec5_div .plano{
+    border-radius: 10px 0px 10px 0px;
+    width: 150px;
+    height: 30px;
+    border: 0.1px solid gray;
+    font-weight: bolder;
+}
+.sec5 .sec5_form{
+    width: 100%;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec5_form .form{
+    width: 380px;
+    min-height: 400px;
+    border-radius: 5px;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid gray;
+}
+.sec5_form form{
+    min-width: 95%;
+    height: 95%;
+    display: flex;
+    padding: 2px;
+    flex-direction: column;
+}
+.sec5_form form .block{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 5px 0px 5px 0px;
+}
+
+.block div input:not([type="radio"]){
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    
+    height: 30px;
+    width: 175px;
+    border-radius: 2px;
+    
+}
+.radio{
+    width: 178px;
+}
+
+form .texte{
+    border: 1px solid gray;
+    width: 100%;
+    margin: 0px auto;
+    height: 100px;
+    max-height: 120px;
+    text-align: start;
+}
+form .div_send{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .div_send .send{
+    border-radius: 10px 0px 10px 0px;
+    width: 160px;
+    height: 30px;
+    border: 0.1px solid gray;
+    font-weight: bolder;
+}
+.sec5_form .form_desc{
+    width: 380px;
+    min-height: 400px;
+    border-radius: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+.form_desc h4{
+    width: 100%;
+    text-align: start;
+    margin-bottom: 10px;
+}
+.form_desc p{
+    margin: 5px 0px 10px 0px;
+}
+
+.sec5_form ul li{
+    list-style-position: inside;
+}
+
+.sec5 .sec5_online{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px;
+}
+.sec5_online h2,.sec5_online h3{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.sec5_online .plataforms{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 5px 0px;
+    overflow: hidden;
+    position: relative;
+
+}
+.plataforms .plataforms_separater{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 5px 0px;
+    overflow: hidden;
+}
+.plataforms .pla{
+    height: 80%;
+    width: 100px;
+}
+.pla img{
+    width: 100%;
+    height: 100%;
+}
+.plataforms .locations{
+    width: 100%;
+    text-align: center;
+}
+.sec5_online .streets{
+    height: 150px;
+    width: 100%;
+    display: flex;
+
+}
+.streets .street{
+    flex-grow:1;
+    border: 1px solid gray;
+    margin: 2px;
+}
+.street img{
+    width: 100%;
+    height: 100%;
+}
+
+

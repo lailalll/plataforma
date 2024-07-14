@@ -1,0 +1,216 @@
+
+.sec3{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0px;
+}
+.sec3 .skyls{
+    min-height:400px;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    padding: 30px 0px;
+    align-items: center;
+
+}
+.skyls h1,.skyls h3{
+    width: 100%;
+    text-align: center;
+    margin: 5px 0px;
+}
+.skyls .abilitis{
+    width: 85%;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.abilitis .abili{
+    border: 1px solid gray;
+    width: 130px;
+    height: 130px;
+    margin: 10px 10px;
+    position: relative;
+    padding-top:20px ;
+}
+.abili .abi_img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -20px;
+    left: 40px;
+    background-color: skyblue;
+}
+.abi_img img{
+    width: 100%;
+    height: 100%;
+}
+.abili h2 , .abili p{
+    width: 100%;
+    text-align: center;
+    
+}
+.abili h2{
+  font-size: 19px;
+}
+.sec3 .leves_actual{
+    min-height:400px;
+    display: flex;
+    width: 80%; 
+    margin: 50px;
+
+}
+.leves_actual .left_sid{
+    border: 1px solid gray;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 10px;
+    justify-content: center;
+    border-right: none;
+    position: relative;
+    overflow: hidden;
+
+}
+.left_sid h3 , .left_sid h1 , .left_sid p{
+    width: 100%;
+    margin: 5px 0px;
+}
+.left_sid .sec3_leftsd_decriptio{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+    z-index: 1;
+    margin: 0px auto;
+    left: 105%;
+    top: 0px;
+    transition: left 2s;
+}
+.left_sid .bt_{
+    border-radius: 10px 0px 10px 0px;
+    width: 150px;
+    height: 30px;
+    border: 0.1px solid gray;
+    font-weight: bolder;
+    z-index: 2;
+    background-color: gray;
+    
+}
+
+.leves_actual .right_sid{
+    border: 1px solid gray;
+    flex-basis: 50%;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+}
+.leves_actual .right_sid div{
+    width: 350px;
+    height: 80px;
+    border: 0.1px solid gray;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 5px;
+}
+.leves_actual .right_sid div:nth-child(2){
+    margin: 20px 0px;
+}
+.right_sid div button{
+    width: 120px;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: gray;
+    border: none;
+}
+.right_sid div button:hover{
+    color: white;
+}
+.right_sid div button:active{
+    outline: 1px solid black;
+    border-radius: 5px;
+}
+.right_sid div .separete{
+    display: flex;
+    flex-grow: 1;
+    border: 0.1px solid gray;
+    flex-direction: column;
+    padding-left: 10px;
+    
+}
+.separete h3 , .separete p{
+    width: 100%;
+}
+.sec3 .tools{
+    border: 0.5px solid gray;
+    width: 80%;
+    min-height: 400px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.tools .toolss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 48%;
+    justify-content: space-around;
+}
+.toolss .tt{
+    width: 100%;
+    min-height: 70px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    display: flex;
+    padding: 5px;
+
+}
+.tt .img_tools{
+    border:none;
+    border-right: 1px solid gray;
+    height: 100%;
+    width: 70px;
+    margin-right: 5px;
+    padding: 3px;
+}
+.img_tools img{
+    width: 100%;
+    height: 100%;
+}
+.tt .separete_toos{
+    display: flex;
+    flex-direction:column ;
+    
+}
+.separete_tools h2{
+    border-bottom: 1px solid black;
+}
+.tools .title{
+    color: blue;
+}
+.sec3 .tools .como{
+    border-radius: 10px 0px 10px 0px;
+    width: 150px;
+    height: 30px;
+    border: 0.1px solid gray;
+    font-weight: bolder;
+}
+.sec3 .descri *:not(button) {
+    width: 100%;
+}
+.sec3 .descri h4{
+    text-align: start;
+}
+
+
+

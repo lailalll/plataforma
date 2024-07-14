@@ -1,0 +1,134 @@
+
+@media (max-width:790px){
+    .oooo{
+        min-height: 500px;
+        display: flex;
+        align-items: center;
+    }
+    .oooo article{
+        display: flex;
+        flex-direction: column;
+        min-height: 500px;
+        
+    }
+    .oooo article *{
+        display: flex;
+        flex-direction: column;
+    }
+    article p{
+        word-wrap: break-word;
+    }
+    .sec1 .sec1_div1_left{
+        min-height: 400px;
+        width: 45%;
+    }
+    .level{
+        align-items: start;
+    }
+    .leves_actual{
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    .leves_actual .left_sid{
+        border: 0.2px solid gray;
+        margin: 5px 0px;
+    }
+    .right_sid{
+        border: none!important;
+    }
+    .left_sid button{
+        margin: 5px;
+    }
+    .toolss ,.descri{
+        padding: 0px 5px;
+    }
+    .sec4_div4{
+        min-height: 300px;
+        display: flex;
+    }
+    .sec4_div4_photo_way{
+        min-height: 300px;
+    }
+    .minph{
+        min-height: 300px;
+     
+    }
+    
+    .sec5_form{
+        align-items: flex-start !important;
+    } 
+    .form{
+       
+        justify-content: start ;
+        height: 100%;
+    }
+    .sec4_div4_separete{
+        border: 1px solid red;
+    }
+    .minph{
+        border: 1px solid red;
+
+    }
+    .sec4_div4_bigphoto{
+        width: 99%;
+        height: 700px;
+        border: 1px solid red;
+    }
+    .sec4_div4_bigphoto img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .sec3 .leves_actual{
+        min-height:400px;
+        height: 700px;
+        display: flex;
+        width: 80%; 
+        margin: 50px;
+        flex-wrap: wrap;
+        position: relative;
+    
+    }
+    .leves_actual .left_sid{
+        position: absolute;
+       bottom: 0px;
+    }
+    .leves_actual .right_sid{
+        position: absolute;
+        top: 0px;
+    }
+
+}
+
+
+@media (max-width:590px){
+    body{
+        
+    }
+    .sec4_div2{
+        padding-left: 5px;
+
+    }
+    .phot_first{
+        border: 1px solid blue;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .div_rota{
+        position: relative !important;
+        border: 1px solid green;
+        margin: 0px !important;
+    }
+    .sp4{
+        position: relative !important;
+            left: 0px;
+            top: 0px;
+            right: 0px;
+            bottom:0px;
+    }
+    .phot_secund{
+        border:1px solid red;
+    }
+}

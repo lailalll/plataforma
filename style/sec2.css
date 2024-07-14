@@ -1,0 +1,120 @@
+
+.sec2{
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec2 h1,.sec2 h3{
+    width: 100%;
+    text-align: center;
+}
+.sec2 .donload{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: none;
+    margin: 5px 0px;
+
+    background-image: url("../photos/dowload.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sec2 .area{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.area .phot_first{
+    min-height: 300px;
+    width: 760px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    position: relative;
+}
+.area .phot_first .div_rota{
+    width: 150px;
+    min-height: 90px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+}
+.div_rota h2{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bolder;
+}
+.div_rota p{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+.area .phot_first .sp1{
+    left: 70px;
+    top: 60px;
+}
+.area .phot_first .sp2{
+    left: 10px;
+    top: 220px;
+}
+.area .phot_first .sp3{
+    left: 90px;
+    bottom: -40px;
+}
+.area .phot_first .sp4{
+    right: 55px;
+    top: 60px;
+}
+.area .phot_first .sp5{
+    right: 10px;
+    top: 240px;
+    
+}
+.area .phot_first .sp6{
+    right: 90px;
+    bottom: -50px;
+}
+.area .phot_first .phot_secund{
+    min-height: 450px;
+    min-width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+    border-radius: 90%;
+}
+.phot_secund .rotaterr{
+    border: 2px dashed gray;
+    min-height: 405px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90%;
+}
+.area .phot_first .phot_secund .phot_meddle{
+    border: 1px solid black;
+    height: 390px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+    position: absolute;
+
+    background-color: skyblue;
+    background-image: url("../photos/web.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
